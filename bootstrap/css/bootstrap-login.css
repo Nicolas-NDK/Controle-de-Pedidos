@@ -1,0 +1,49 @@
+/* 
+=================================== GLOBAL =================================== 
+*/
+body {
+	background-color: #F0F2F4;
+}
+::selection{
+	color: #FFF;
+	background: #7FC3E5;
+}
+::-moz-selection {
+	color: #FFF;
+	background: #7FC3E5;
+}
+
+/* 
+=================================== LOGIN =================================== 
+*/
+.container {
+	max-width: 360px;
+	margin-top: 15%; 
+}
+input.obrigatorio, select.obrigatorio, textarea.obrigatorio {
+  border-color: #b94a48;
+}
+.form-signin {
+	max-width: 300px;
+	padding: 19px 29px 29px;
+	margin: 0 auto 20px;
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+	font-size: 16px;
+	height: auto;
+	margin-bottom: 15px;
+	padding: 7px 9px;
+}
+.form-signin a {
+	margin-left: 10px;
+}
